@@ -1,0 +1,29 @@
+.item {
+  margin-top: 10px;
+  border: 2px dashed rgb(42, 124, 120);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.item p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.item .icons i.fa-trash-alt {
+  color: #eb4d4b;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.item .icons i.fa-edit {
+  color: rgb(42, 124, 120);
+  font-size: 18px;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: #12343b;
+  width: 550px;
+  min-height: 600px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px 0;
+}

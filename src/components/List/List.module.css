@@ -1,0 +1,11 @@
+.list {
+  padding: 0px 25px;
+}
+
+.list p {
+  color: rgb(206, 206, 206);
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+}

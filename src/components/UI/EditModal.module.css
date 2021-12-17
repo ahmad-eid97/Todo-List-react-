@@ -1,0 +1,76 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.inside {
+  width: 510px;
+  height: 100px;
+  background-color: #F8EFBA;
+  color: #000;
+  position: absolute;
+  z-index: 999;
+  left: 35.6%;
+  top: 30%;
+  border-radius: 10px;
+  padding: 40px 20px;
+  animation: show ease-in 0.3s;
+}
+
+.inside input {
+  width: 70%;
+  padding: 5px 15px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 17px;
+}
+
+.inside button.update {
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #12343b;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.inside .closeWrapper {
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.inside button.close {
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2e2f30;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  float: right;
+  margin: 30px 40%;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0.6);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
